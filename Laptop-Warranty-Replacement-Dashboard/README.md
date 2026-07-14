@@ -22,4 +22,4 @@ Power BI solution used for proactive replacement planning and warranty monitorin
 
 ## Screenshots
 
-![Overview](Screenshots/dashboard.png)
+![Laptop Warranty Dashboard](https://github.com/AuEmran/powerbi-portfolio/blob/1ee9ad95617b5502046fece909665ac0d62ccf9e/Laptop-Warranty-Replacement-Dashboard/Laptop%20warranty%20dashboard.png)
