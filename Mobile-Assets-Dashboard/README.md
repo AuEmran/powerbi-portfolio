@@ -11,6 +11,7 @@ Enterprise reporting solution for mobile devices and services across 40 agencies
 - Carrier analysis
 - High data usage reporting
 - Agency comparison
+- Power Automate Refresh Button
 
 ## Skills Demonstrated
 
@@ -18,6 +19,8 @@ Enterprise reporting solution for mobile devices and services across 40 agencies
 - Data Modelling
 - DAX
 - Asset Management Analytics
+- Power Automation
+- RLS(Row-Level) Security
 
 ## Screenshots
 
