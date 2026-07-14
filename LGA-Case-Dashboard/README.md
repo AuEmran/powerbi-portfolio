@@ -26,6 +26,6 @@ Developed an Azure Maps dashboard using ABS LGA boundaries and Power BI.
 
 ## Screenshots
 
-![Overview](Screenshots/dashboard.png)
+(https://github.com/AuEmran/powerbi-portfolio/blob/c867ab3d18b3d2f5a4109e7335d2c754eca2d4dc/LGA-Case-Dashboard/Screenshots/CX%20Case%20LGA.jpg)
 
 [LGA-Case-Dashboard/Screenshots/LGA Dashboard.jpg](https://github.com/AuEmran/powerbi-portfolio/blob/985c5db990a78ce700d8559af4cc83f2158c6f31/LGA-Case-Dashboard/Screenshots/LGA%20Dashboard.jpg)
