@@ -19,7 +19,8 @@ Executive Power BI dashboard providing operational insights into customer experi
 - Salesforce Reporting
 - Google Analytics
 - Power Query
+- Power Automation
 
 ## Screenshots
 
-![Overview](Screenshots/dashboard.png)
+![Operations dashboard)](https://github.com/AuEmran/powerbi-portfolio/blob/765c9f72ec4a457326442778702b4f75403b0de5/Operations-Dashboard/Operations%20Dashboard.jpg)
