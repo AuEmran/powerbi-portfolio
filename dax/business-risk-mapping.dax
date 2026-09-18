@@ -1,0 +1,16 @@
+// Business Risk Mapping — Bushfire & Flood Prone Businesses — Key DAX Measures
+
+Total Business Number =
+COUNTROWS ( Businesses )
+
+Bushfire Prone Business Count =
+CALCULATE ( COUNTROWS ( Businesses ), Businesses[HazardType] = "Bushfire Prone" )
+
+Flood Prone Business Count =
+CALCULATE ( COUNTROWS ( Businesses ), Businesses[HazardType] = "Flood Prone" )
+
+% Bushfire Prone Business =
+DIVIDE ( [Bushfire Prone Business Count], [Total Business Number] )
+
+% Flood Prone Business =
+DIVIDE ( [Flood Prone Business Count], [Total Business Number] )

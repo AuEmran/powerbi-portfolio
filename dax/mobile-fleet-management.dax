@@ -1,0 +1,25 @@
+// Mobile Fleet Management — Key DAX Measures
+
+Total Mobile Cost =
+SUM ( Services[MonthlyCost] )
+
+Total Services =
+COUNTROWS ( Services )
+
+% Devices Registered =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( Services ), Services[RegistrationStatus] = "Registered" ),
+    COUNTROWS ( Services )
+)
+
+Zero Usage Devices (6 Mth) =
+CALCULATE (
+    COUNTROWS ( Services ),
+    FILTER (
+        Services,
+        CALCULATE ( SUM ( UsageLog[UsageVolume] ), DATESINPERIOD ( 'Date'[Date], TODAY(), -6, MONTH ) ) = 0
+    )
+)
+
+Cost by Carrier =
+CALCULATE ( [Total Mobile Cost], ALLEXCEPT ( Services, Services[Carrier] ) )

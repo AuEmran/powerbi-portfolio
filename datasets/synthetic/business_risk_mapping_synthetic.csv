@@ -1,0 +1,9 @@
+BusinessID,LGA,IndustryDivision,IndustryClass,EntitySubType,HazardType
+B-70001,Byron,Accommodation,Short-Term Accommodation,Individual/Sole Trader,Bushfire Prone
+B-70002,Bathurst Regional,Retail Trade,General Retail,Company,Flood Prone
+B-70003,Blue Mountains,Accommodation,Short-Term Accommodation,Company,Bushfire Prone
+B-70004,Wollongong,Construction,Residential Building,Partnership,Not Prone
+B-70005,Central Coast (NSW),Retail Trade,General Retail,Company,Flood Prone
+B-70006,Coffs Harbour,Accommodation,Short-Term Accommodation,Individual/Sole Trader,Bushfire Prone
+B-70007,Sydney,Professional Services,Legal Services,Company,Not Prone
+B-70008,Maitland,Construction,Residential Building,Company,Flood Prone

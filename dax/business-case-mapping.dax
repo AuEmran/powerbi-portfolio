@@ -1,0 +1,16 @@
+// Business Case & Mediation Mapping (LGA) — Key DAX Measures
+
+Case Count =
+CALCULATE ( COUNTROWS ( Cases ), Cases[CaseType] = "CX Case" )
+
+Mediation Application Count =
+CALCULATE ( COUNTROWS ( Cases ), Cases[CaseType] = "Mediation Application" )
+
+% of Cases to Total Business =
+DIVIDE ( [Case Count], SUM ( BusinessCounts[TotalBusiness] ) )
+
+Case Count (Rolling 12 Mth) =
+CALCULATE (
+    [Case Count],
+    DATESINPERIOD ( 'Date'[Date], MAX ( 'Date'[Date] ), -12, MONTH )
+)

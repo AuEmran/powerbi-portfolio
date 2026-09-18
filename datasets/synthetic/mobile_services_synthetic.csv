@@ -1,0 +1,11 @@
+ServiceNumber,Carrier,CarriageType,MonthlyCost,Division,RegistrationStatus,UsageLast6Mth
+SVC-5001,CarrierA,Mobile Voice,45.00,Field Operations,Registered,120
+SVC-5002,CarrierA,Mobile Data,65.00,Field Operations,Registered,340
+SVC-5003,CarrierB,Mobile Voice,42.00,Corporate Services,Not-Registered,0
+SVC-5004,CarrierB,Mobile Data,60.00,Corporate Services,Registered,210
+SVC-5005,CarrierA,Mobile Voice,45.00,Compliance,Not-Registered,0
+SVC-5006,CarrierA,Mobile Data,65.00,Compliance,Registered,95
+SVC-5007,CarrierC,Mobile Voice,38.00,IT Services,Registered,410
+SVC-5008,CarrierB,Mobile Data,60.00,IT Services,Registered,300
+SVC-5009,CarrierA,Mobile Voice,45.00,Field Operations,Not-Registered,0
+SVC-5010,CarrierC,Mobile Data,58.00,Compliance,Registered,150

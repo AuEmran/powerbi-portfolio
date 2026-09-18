@@ -1,0 +1,29 @@
+// Laptop Asset Lifecycle & Warranty Management — Key DAX Measures
+
+Laptops Out of Warranty (FY) =
+CALCULATE (
+    COUNTROWS ( Assets ),
+    Assets[WarrantyEndDate] <= EDATE ( TODAY(), 0 ),
+    Assets[Status] = "Active"
+)
+
+Replacement Cost Exposure =
+SUMX (
+    FILTER ( Assets, Assets[WarrantyEndDate] <= TODAY() ),
+    RELATED ( DeviceModel[UnitReplacementCost] )
+)
+
+% Fleet Out of Warranty =
+DIVIDE ( [Laptops Out of Warranty (FY)], COUNTROWS ( Assets ) )
+
+Total Requests (Monthly) =
+CALCULATE (
+    COUNTROWS ( Requests ),
+    ALLEXCEPT ( Requests, Requests[RequestDate].[Year], Requests[RequestDate].[Month] )
+)
+
+Active Laptops =
+CALCULATE ( COUNTROWS ( Assets ), Assets[Status] = "Active" )
+
+Inactive Laptops =
+CALCULATE ( COUNTROWS ( Assets ), Assets[Status] = "Inactive" )

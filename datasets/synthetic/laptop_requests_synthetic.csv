@@ -1,0 +1,13 @@
+RequestID,RequestType,RequestDate,DeviceModel,CostCentre
+REQ-3001,New Starter,2025-01-14,HP EliteBook x360 1030 G8,FIN
+REQ-3002,New Starter,2025-02-03,HP Elite x360 830 13 G11,HR
+REQ-3003,Replacement,2025-02-19,HP EliteBook x360 1030 G7,ENG
+REQ-3004,New Starter,2025-03-11,Dell Precision 5570,ENG
+REQ-3005,Replacement,2025-04-08,HP ZBook Firefly 14 G8,OPS
+REQ-3006,New Starter,2025-05-20,HP EliteBook x360 1030 G8,LEGAL
+REQ-3007,Replacement,2025-05-29,HP Elite x360 830 13 G9,FIN
+REQ-3008,New Starter,2025-06-15,HP ZBook 8 G1i Mobile Workstation,ENG
+REQ-3009,New Starter,2025-08-02,HP EliteBook x360 1030 G7,HR
+REQ-3010,Replacement,2025-09-09,HP ZBook Firefly 14 G10,ENG
+REQ-3011,New Starter,2025-10-01,HP Elite x360 830 13 G11,OPS
+REQ-3012,Replacement,2025-11-14,HP EliteBook x360 1030 G4,FIN
